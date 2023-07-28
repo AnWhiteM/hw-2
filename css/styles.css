@@ -267,6 +267,19 @@ main {
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
+.person-block h3 {
+  color: var(--navyblue, #2e2f42);
+  text-align: center;
+
+  /* Header 3 */
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 120% */
+  letter-spacing: 0.4px;
+}
+
 .person-block p {
   color: var(--slate, #434455);
   text-align: center;
