@@ -65,10 +65,10 @@ header {
   text-decoration: none;
 }
 .nav-element:hover {
-  color: var(--iris, #4d5ae5);
+  color: var(--iris, #404bbf);
 }
 .nav-element:focus {
-  color: var(--iris, #4d5ae5);
+  color: var(--iris, #404bbf);
 }
 .address-list {
   list-style: none;
@@ -122,6 +122,7 @@ main {
   font-style: normal;
   font-weight: 700;
   line-height: 60px; /* 107.143% */
+  line-height: 1.07;
   letter-spacing: 1.12px;
 }
 .os-button {
@@ -135,7 +136,7 @@ main {
   color: var(--white, #fff);
 
   /* Button Text */
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -144,7 +145,12 @@ main {
   text-align: center;
   cursor: pointer;
 }
-
+.os-button:hover {
+  background-color: #404bbf;
+}
+.os-button:focus {
+  background-color: #404bbf;
+}
 /* Advantages */
 .adv-section {
   padding-top: 70px;
@@ -195,6 +201,7 @@ main {
   font-style: normal;
   font-weight: 700;
   line-height: 40px; /* 111.111% */
+  line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
@@ -227,6 +234,7 @@ main {
   line-height: 40px; /* 111.111% */
   letter-spacing: 0.72px;
   text-transform: capitalize;
+  line-height: 1.11;
 }
 .team-list {
   list-style: none;
@@ -252,18 +260,7 @@ main {
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
-.person-block h3 {
-  color: var(--navyblue, #2e2f42);
-  text-align: center;
 
-  /* Header 3 */
-  font-family: Roboto;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 24px; /* 120% */
-  letter-spacing: 0.4px;
-}
 .person-block p {
   color: var(--slate, #434455);
   text-align: center;
@@ -294,8 +291,8 @@ footer {
   height: 21px;
 
   justify-content: center;
-  color: var(--cloud, #f4f4fd);
-  font-family: Raleway;
+  color: var(--cloud, #4d5ae5);
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
@@ -305,8 +302,9 @@ footer {
   text-decoration: none;
   padding-left: 14px;
 }
-.iris {
-  color: var(--iris, #4d5ae5);
+
+.footerlogo span {
+  color: var(--iris, #f4f4fd);
 }
 .footer-text {
   color: var(--cloud, #f4f4fd);
