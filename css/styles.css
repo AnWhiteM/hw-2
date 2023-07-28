@@ -2,6 +2,9 @@
   background: #fff;
 }
 
+.adrss {
+  font-style: normal;
+}
 .link {
   text-decoration: none;
 }
@@ -64,7 +67,7 @@ header {
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
 }
@@ -95,10 +98,10 @@ header {
   text-decoration: none;
 }
 .address-element:hover {
-  color: var(--iris, #5c65ce);
+  color: var(--iris, #404bbf);
 }
 .address-element:focus {
-  color: var(--iris, #5c65ce);
+  color: var(--iris, #404bbf);
 }
 main {
   padding-top: -30px;
@@ -125,7 +128,6 @@ main {
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
-  line-height: 60px; /* 107.143% */
   line-height: 1.07;
   letter-spacing: 1.12px;
 }
