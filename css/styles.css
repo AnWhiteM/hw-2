@@ -314,7 +314,7 @@ main {
 
 /* footer */
 
-footer {
+.footer-class {
   width: 1440px;
   height: 312px;
   flex-shrink: 0;
@@ -334,15 +334,29 @@ footer {
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
-  line-height: 21px; /* 116.667% */
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
   text-decoration: none;
   padding-left: 14px;
 }
 
-.footerlogo span {
-  color: var(--iris, #f4f4fd);
+.footerlogo-white {
+  display: flex;
+  width: 71px;
+  height: 21px;
+
+  justify-content: center;
+  color: var(--cloud, #f4f4fd);
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding-left: 14px;
 }
 .footer-text {
   color: var(--cloud, #f4f4fd);
