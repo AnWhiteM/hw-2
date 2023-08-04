@@ -1,5 +1,6 @@
 :root {
-  background: #fff;
+  --primary-color: white;
+  --secondary-color: gray;
 }
 
 .adrss {
@@ -20,7 +21,7 @@ body {
   min-height: 100vh;
   font-family: "Roboto", sans-serif;
   color: #434455;
-  background-color: #ffffff;
+  background-color: var(--primary-color);
 }
 /* header */
 header {
@@ -164,6 +165,13 @@ main {
 }
 
 .adv-main-text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.adv-main-ul {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
